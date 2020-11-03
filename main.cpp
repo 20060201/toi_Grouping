@@ -24,7 +24,7 @@ int main() {
         CalNum = Power % int(pow(10, Man));
         Power /= int(pow(10, Man));
 
-        cout << CalTeam << "-" << CalNum ;
+        //cout << CalTeam << "-" << CalNum ;
 
         CalNum2 = SumPower(CalNum);
 
@@ -32,7 +32,7 @@ int main() {
             MaxNum = CalNum2;
             MaxTeam = CalTeam;
         }
-        cout << "-" << CalNum2 << endl;
+        //cout << "-" << CalNum2 << endl;
     }
 
     cout << MaxTeam << " " << MaxNum <<endl;
